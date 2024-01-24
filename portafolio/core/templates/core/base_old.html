@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portafolio Personal - {% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+    </header>
+    <!--CABECERA -->
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about">Acerca de</a></li>
+            <li><a href="/contact">Contacto</a></li>
+            <li><a href="/portafolio">Portafolio</a></li>
+        </ul>
+    </nav>
+
+    <!--CONTENIDO -->
+        {% block content %}
+        
+        {% endblock %}
+    
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

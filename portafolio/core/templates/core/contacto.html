@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Contacto{% endblock %}
+
+{% block image-header%} contact {% endblock %}
+{% block title-header%}
+    <div>
+        <h1 class="display-4 fw-bold" style="color: #C2C4C8">Contacto </h1>
+    </div>
+    <div>
+        <h3 class="fs-2 fw-bold" style="color: #C2C4C8">Ponte en contacto con nosotros</h3>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Puedes enviarnos un correo electrónico a la siguiente dirección: </p>
+        <br>
+        <p><b>Correo Electrónico:</b> <a href="mailto:gerencia@connelec.com.ar">gerencia@connelec.com.ar</a></p>
+        <p><b>Honorarios:</b> Preguntar no tiene costo ;-)</p>
+        </div>
+    </div>
+
+{% endblock %}
